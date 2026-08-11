@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>CSC Professional: Exam Protocol</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- I-link ang Manifest file (real file — kailangan ito para gumana ang offline caching) -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Exam Protocol">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAJKElEQVR4nO2dTXKcSBCFsx2zsGO89Kx0kDmMz6fDzEG8Gi2tsHaehY2GpikoIH9eZr0vwuGNLSDz45FAtfomAHz888vP6H0gOry9vtwitx+ycQo8Dt6Cu22MEhMPuU03QIlJCyu5TX4oRSa9aIv9QfOHiVBmcgxtX9TODopMrqKR1ioJTZmJBhoeXTojKDKx4mxan05oykwsOevXKaEpM/HgjGeHhabMxJOjvh0SmjKTCI541y00ZSaR9PrXJTRlJgj0eLgrNGUmSOz5qP7qm5BINoVmOhNEtrxsvo2hzMd4++ffr1d/xse//3rW2JdRWHubSKEPoiHuUSj6Ot1CU+b/6RVYQzrPbVVhKfWD0KPLvCdVhEyI+4TEXGoKLdvCIMqSbX+taQo9msxrYmQUospxXGGSekihqwpQ9bh6GFLoZcMrN3ukYxVZEbqyzKM1d85Ix/72+nIrLfRIzdxjhFqUFXqE5p2lcm3eha4ic+VmaVO1VmWEnjeoSnM8qFa3EstHqzXFk3m9ItapaJM6oSmyLhXq+YEyk4kKaZ1y5KDMdmSX+pYpoSmyLxnrnUboDMX98fz59P/99PW74p7okaHuc1IIjVjUK/L2giI5Yv1bwAuNUkwPgfeIFBylD3tACx1dxBMSP13Y3Lcj/zhC7uh+9AArdGTxOkW+Im8vu5J7i40uNaTQUUXrENlD4habcnuKjSw1nNARxdoROVLiFk25vcRGlRpKaO8ibYiMKHGLVbk9xEaUGvJNoXVxfjx/bsn8JLlkFmns88YxqoEi8RyYhJ7Odg+ZV8gm8RYPiW2d1l696wEioSmzKqtpbcnUN4S1H+FCexShcfnNOF708nBsHiOISLzU4UJPWKXzIKncwi2tEcYNkeAZ2nrUaKTyqNzN1lZzdfQ8HZbQlNmdhxHEguh5OkRo64OlzE1cpJ6IkDp0hrZIZ8q8i7nUkfO0u9CWo8aiOWhPMQ6tpjPmrjaWUnunNMxTjqusyEz2MZU6AlehrdI5QTO+Lf6GRLuOESmdPqE5M1/G9UbRGjehLdI5iczQqfwbM6m9Uzp9Qs9AlHkNVMGz1G8TF6Ed0rlEMwAwuUn0TOmUCZ1ozmulMWpK35Gozu+YC62dzknm5syYzNNeKZ0yoWcgy5wihRsg13UTU6Ed0jkzaYTPlNKZExo5RdLIugFyfZuYCa19FvKpRghmr8atUto8oVE+yQBKhSQ/hLUPKUaOZOlcTdJUC5hMhI7+GE4yqp0Au1jeHMInNNMZgjQpDS80IUeAFho9DRRJlezIfVEX2nB+5rgRi2r9reZo6IQm5CiwQiNf1lbQSOdUCY/aH1ihF6CPG6MA3wdVoQd9/qyZrKlS+ioWc3SWhCakiz+id2ANxZcpGRPPY5+v1PRJfu/jj+fPMF8OOlE9oeFnvgBK1wQyoZWZGpgxrTUpLfJE9YSeM0RDGwxz7GpCJ3nCMUxjZ0Afs/aTDriEdlhdB91gZayOFXb13Qgz9BrV5+qRTto74BLamYqNr3hM3YwutEgtASodyyko9C8qiFDhGC4z6gy9Rta5miLPYEI/kkmQTPvqAoVeJ4MoGfbRHQrdBlkY5H0LhTP0NmhzNUXegQndB4JICPsAD4XuJ1IoytwJhSaloND9RM7RKDM8PBSalAJO6MVn1JhMmLz3pexnCiO+15nkR/uDIXAJDQrClQJhH+Ch0KQUFJqUAlJosBvD6O3PQdgX2BtCEVChCTmLqtB80kGOYPGrL7IkNMKl9gpPsz+Zge8DrNAg85lGA5cSX5UaQiqQ/jzA9dB2bImLts66DOoJbThHZ2p+bwpnGkFU62/1q+NgRw4R3MvaBmfm5HSzNXJfoIUO5mgiXZXyyP/PdLVyBV5osJcsa2gmLGpaQ79MmWMi9CDPoy3lQ5RaDctfvQyf0CIhKb23DQ/h9k4Yr6tVmnQWcRC6WEpHjASl0traBzOhtS8nALN09Ke+I7Zvls5W3/SQYuRo4CU10o2a534g3oDvYiq09s2h0ww3bySKyHPmJ5iLdFp19/genswJLWLXUKRUbmG5fynTWUTk9vHPLz+tN6J9Zq58UQ26fJm4kzlTOoskTegMj48qkLHOLkJbvGgBeOpREZOnGp7fYZkyoRtQ6muUqJ+b0A4pLVKkKQGYzM0i/t8wnD6hKfVlzGSOwFVoq0VL2ZuAgnYdI77/PX1CT/Am8RSpFh714PIceonlmctn1F2YjxkR6SwSnNAWK684U+/iJnMEIUJbn7WUuonrDaB3OosEJrT1p1oo9QMuMkeNGhMhM/Qc6wKszNQiY83VDydyVZlFgJ5yOCa1yDhp7S5zNOFCe5zNn75+b40gVcV+OLZGDdSJTGcRAKFF/D4lPkhau6XyBMKoMRE+Q8/xKkxjrhbJPVuvnpgjySwCktBLPJJ6I62zJfbqPnuMGChz8xyohBa5L5LXWb+R2CKYqd086bxeYUf0qQc4oUXiirUjtkis3JtXDs+1GKgyi4AKLRJbtA6xRXzk3h1/vBcVIcssAiy0SHzxOsWec0XyQ7N7xOq46H70AC20CE4RT8itTuQST5Q+7AEvtAhmMT0ER1mjjFj/FimEFslR1CuSo8i7JEPd56QRWiRfcbOTsd6phJ7IWOhMZK4v5JvCPeZFRnxblZnMMouIfHh7fblF78QZKLU+2WUWEbmJiGQcO+ZUaEQkleqXcuRYwrQ+TyWZRYok9MRS5goNsqJqrd7n5ypSi9RtlgaVa/P2+nIrKfRE5eYdZYRalBd6YoRmthjp2O+EFqkttchgzR3oWEV+ySwym6FF6gs9sfYkpELDqx5XD0MLPVFFgCrHcYVVoUXGk1pk+9k1ohjZ9tea+dtuCr1g78VMhDCI+4TEptAilHpO75tHDak8t1WF5Vqk5sIkSr1OxKt1CrzO2sI6Cq2EhugU9xiHhBah1ASX1rLnzdV2WddKk9pseVli+SghE7tCM6UJEns+diU0pSYI9HjYPXJQahJJr3+HZmhKTSI44t3hm0JKTTw56tuppxyUmnhwxrPTj+0oNbHkrF8qUvKNItHialCqvFhhWhMNNDxSF5FpTY6iGYjqr76Z1uQI2r6Yyse0Ji2sgs8tTSk38bh6h4wHlHscvEfQ/wDlGd6ezMRnxwAAAABJRU5ErkJggg==">
+
+<!-- I-register ang Service Worker gamit ang JavaScript -->
+<script>
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('Service Worker Registered!', reg))
+        .catch(err => console.log('Service Worker Failed!', err));
+    });
+  }
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app"></div>
+
+<!-- Question data files — must load BEFORE app.js since app.js
+     references the globals they define (BANK, FINAL_BANK_RAW, MOCK_BANK_1..9) -->
+<script src="data/bank.js"></script>
+<script src="data/final-exam.js"></script>
+<script src="data/mock-1.js"></script>
+<script src="data/mock-2.js"></script>
+<script src="data/mock-3.js"></script>
+<script src="data/mock-4.js"></script>
+<script src="data/mock-5.js"></script>
+<script src="data/mock-6.js"></script>
+<script src="data/mock-7.js"></script>
+<script src="data/mock-8.js"></script>
+<script src="data/mock-9.js"></script>
+
+<!-- Core app engine — loads last, after all data files above -->
+<script src="app.js"></script>
+</body>
+</html>
