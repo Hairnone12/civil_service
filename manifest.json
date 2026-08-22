@@ -1,6 +1,6 @@
 {
-  "name": "CSC Professional: Exam Protocol",
-  "short_name": "Exam Protocol",
+  "name": "Civil Service Exam Protocol",
+  "short_name": "CS EXAM",
   "description": "Gamified Civil Service Professional Exam reviewer with 20 leveled exams, mock exams, and a comprehensive final exam.",
   "start_url": ".",
   "scope": ".",
